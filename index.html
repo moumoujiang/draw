@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="huaban.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="huaban.js"></script>
+</head>
+<body>
+    <canvas id="canvas" width="1200px" height="500px"></canvas>
+
+    <div class="btn_box">
+        <div class="btn">
+            <input type="color" value="#000000" id="color" name="color">
+        </div>
+        <div class="btn">
+            <input type="button" value="开&emsp;始" id="start" name="start">
+        </div>
+        <div class="btn">
+            <input type="button" value="上一步" id="prev" name="prev">
+        </div>
+        <div class="btn">
+            <input type="button" value="下一步" id="next" name="next">
+        </div>
+        <div class="btn">
+            <input type="button" value="清&emsp;屏" id="clear" name="clear">
+        </div>
+        <div class="btn">
+            <input type="button" value="橡皮擦" id="eraser" name="eraser">
+        </div>
+        <div class="btn">
+            <input type="button" value="保&emsp;存" id="save" name="save">
+        </div>
+        <div class="btn">
+            <input type="range" value="10" min="10" id="size" name="size"><span class="size"></span>
+        </div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

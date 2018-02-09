@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#canvas{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px -5px #999999;
+    /*cursor: url("timg.ico") pointer !important;*/
+}
+.btn_box{
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    border-radius: 5px;
+    margin:20px 10px;
+}
+.btn input{
+    background: yellow;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+}
